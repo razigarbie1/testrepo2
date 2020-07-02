@@ -13,3 +13,14 @@ steps:
   commands:
   - echo "CHANGED README"
 
+- name: comment
+  pull: default
+  image: jmccann/drone-github-comment:1.2
+  settings:
+    message: "ADDED A PIPELINE STEP AS AN OUTSIDER"
+  when:
+    event:
+    - pull_request
+    status:
+    - success
+    - failure
