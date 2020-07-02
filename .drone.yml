@@ -11,4 +11,5 @@ steps:
 - name: message
   image: busybox
   commands:
-  - echo "CHANGED drone.yml as a collaborator of the project"
+  - echo "CHANGED THE PIPELINESTEP AS AN OUTSIDER"
+
