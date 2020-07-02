@@ -6,11 +6,10 @@ trigger:
   paths:
     include:
     - README.md
-    - drone.yml
- 
+    
 steps:
 - name: message
   image: busybox
   commands:
-  - echo "CHANGED THE PIPELINESTEP AS AN OUTSIDER!"
+  - echo "CHANGED README"
 
