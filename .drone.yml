@@ -12,3 +12,4 @@ steps:
   image: busybox
   commands:
   - echo "CHANGED THE PIPELINESTEP AS AN OUTSIDER"
+
