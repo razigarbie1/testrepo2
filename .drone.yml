@@ -11,4 +11,4 @@ steps:
 - name: message
   image: busybox
   commands:
-  - echo "README.md was changed"
+  - echo "CHANGED drone.yml as a collaborator of the project"
